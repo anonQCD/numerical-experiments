@@ -230,27 +230,27 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
     <td>16.83 (1.24)</td>
     <td>0.84 (0.12)</td>
     <td><b>0.28 (0.04)</b></td>
-    <td><b>3.81 (0.39)</b></td>
-    <td>3.85 (0.68)</td>
-    <td>4.95 (0.92)</td>
+    <td><b>3.70 (0.35)</b></td>
+    <td>3.72 (0.67)</td>
+    <td>4.86 (0.86)</td>
   </tr>
   <tr>
     <td>$p=300$</td>
     <td>20.47 (1.97)</td>
     <td>4.82 (0.55)</td>
     <td><b>0.62 (0.15)</b></td>
-    <td><b>3.74 (0.29)</b></td>
-    <td>4.12 (0.53)</td>
-    <td>5.08 (0.73)</td>
+    <td><b>3.63 (0.30)</b></td>
+    <td>3.97 (0.52)</td>
+    <td>4.91 (0.70)</td>
   </tr>
   <tr>
     <td>$p=500$</td>
-     <td>33.69 (4.22)</td>
+    <td>33.69 (4.22)</td>
     <td>6.98 (0.88)</td>
     <td><b>1.05 (0.24)</b></td>
-    <td><b>3.82 (0.37)</b></td>
-    <td>4.39 (0.82)</td>
-    <td>5.15 (0.79)</td>
+    <td><b>3.74 (0.35)</b></td>
+    <td>4.11 (0.57)</td>
+    <td>5.03 (0.76)</td>
   </tr>
   <tr>
     <td>$p=700$</td>
@@ -263,30 +263,30 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
   </tr>
   <tr>
     <td>$p=1000$</td>
-    <td>53.36 (4.42)</td>
-    <td>8.46 (0.73)</td>
-    <td><b>2.20 (0.48)</b></td>
-    <td><b>3.78 (0.24)</b></td>
-    <td>4.76 (0.74)</td>
-    <td>5.35 (0.89)</td>
+    <td>42.42 (3.90)</td>
+    <td>7.77 (0.73)</td>
+    <td><b>1.46 (0.30)</b></td>
+    <td><b>3.60 (0.51)</b></td>
+    <td>4.15 (0.75)</td>
+    <td>5.05 (0.92)</td>
   </tr>
   <tr>
     <td>$p=1500$</td>
-    <td>57.96 (4.39)</td>
-    <td>9.79 (1.12)</td>
-    <td><b>3.62 (0.54)</b></td>
-    <td><b>3.83 (0.41)</b></td>
-    <td>4.51 (0.57)</td>
-    <td>5.38 (0.70)</td>
+    <td>53.36 (4.42)</td>
+    <td>8.46 (0.73)</td>
+    <td><b>2.20 (0.48)</b></td>
+    <td><b>3.70 (0.22)</b></td>
+    <td>4.58 (0.70)</td>
+    <td>5.30 (0.88)</td>
   </tr>
   <tr>
     <td>$p=2000$</td>
-    <td>62.84 (4.54)</td>
-    <td>10.50 (1.12)</td>
-    <td><b>4.65 (0.82)</b></td>
-    <td><b>3.91 (0.43)</b></td>
-    <td>4.67 (0.59)</td>
-    <td>5.48 (0.72)</td>
+    <td>57.96 (4.39)</td>
+    <td>9.79 (1.12)</td>
+    <td><b>3.62 (0.54)</b></td>
+    <td><b>3.68 (0.31)</b></td>
+    <td>4.37 (0.51)</td>
+    <td>5.33 (0.71)</td>
   </tr>
 </table>
 
@@ -536,7 +536,7 @@ Table 7. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
 
 ## Error distribution
 
-Table 8. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the error distribution is skewed-t with degrees of freedom 2 and skewing parameter $\gamma$ 4. QCD is faster than hqreg but slower than conquer, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 8. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the error distribution is skewed-t with degrees of freedom 2 and skewing parameter $\gamma$ 4. QCD is faster than hqreg in higher dimensions but slower than conquer, but QCD has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -554,66 +554,66 @@ Table 8. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the e
   </tr>
  <tr>
     <td>$p=100$</td>
-    <td><b>4.44 (2.04)</b></td>
+    <td>4.44 (2.04)</td>
     <td>1.35 (0.08)</td>
-    <td>0.24 (0.06)</td>
-    <td><b>4.8 (1.58)</b></td>
-    <td>15.4 (7.38)</td>
-    <td>15.6 (7.30)</td>
+    <td><b>0.24 (0.06)</b></td>
+    <td><b>4.57 (1.30)</b></td>
+    <td>14.85 (7.24)</td>
+    <td>15.24 (7.02)</td>
   </tr>
   <tr>
     <td>$p=300$</td>
-    <td><b>4.34 (0.88)</b></td>
+    <td>4.34 (0.88)</td>
     <td>15.18 (1.99)</td>
-    <td>1.03 (0.29)</td>
-    <td><b>5.37 (1.59)</b></td>
-    <td>15.88 (5.37)</td>
-    <td>16.00 (5.04)</td>
+    <td><b>1.03 (0.29)</b></td>
+    <td><b>5.15 (1.49)</b></td>
+    <td>15.39 (5.13)</td>
+    <td>15.79 (4.97)</td>
   </tr>
   <tr>
     <td>$p=500$</td>
-    <td><b>5.49 (0.87)</b></td>
+    <td>5.49 (0.87)</td>
     <td>23.66 (4.77)</td>
-    <td>1.45 (0.40)</td>
-    <td><b>6.3 (3.14)</b></td>
-    <td>15.6 (6.25)</td>
-    <td>15.8 (6.14)</td>
+    <td><b>1.45 (0.40)</b></td>
+    <td><b>5.97 (2.86)</b></td>
+    <td>14.92 (6.05)</td>
+    <td>15.43 (6.07)</td>
   </tr>
   <tr>
     <td>$p=700$</td>
-    <td><b>7.25 (1.70)</b></td>
+    <td>7.25 (1.70)</td>
     <td>30.39 (7.36)</td>
-    <td>1.78 (0.30)</td>
-    <td><b>5.47 (1.26)</b></td>
-    <td>14.11 (5.26)</td>
-    <td>14.24 (4.79)</td>
+    <td><b>1.78 (0.30)</b></td>
+    <td><b>5.28 (1.21)</b></td>
+    <td>13.44 (4.66)</td>
+    <td>13.93 (4.68)</td>
   </tr>
   <tr>
     <td>$p=1000$</td>
-    <td><b>9.12 (1.74)</b></td>
+    <td>9.12 (1.74)</td>
     <td>39.20 (9.14)</td>
-    <td>2.73 (0.43)</td>
-    <td><b>6.47 (1.78)</b></td>
-    <td>13.76 (3.44)</td>
-    <td>14.12 (3.50)</td>
+    <td><b>2.73 (0.43)</b></td>
+    <td><b>6.23 (1.80)</b></td>
+    <td>13.30 (3.49)</td>
+    <td>13.81 (3.62)</td>
   </tr>
   <tr>
     <td>$p=1500$</td>
-    <td><b>11.68 (1.97)</b></td>
+    <td>11.68 (1.97)</td>
     <td>54.62 (15.66)</td>
-    <td>3.98 (0.65)</td>
-    <td><b>7.09 (2.69)</b></td>
-    <td>14.85 (4.28)</td>
-    <td>15.14 (4.31)</td>
+    <td><b>3.98 (0.65)</b></td>
+    <td><b>6.66 (2.36)</b></td>
+    <td>14.39 (4.13)</td>
+    <td>14.75 (4.12)</td>
   </tr>
   <tr>
     <td>$p=2000$</td>
-    <td><b>14.29 (2.44)</b></td>
+    <td>14.29 (2.44)</td>
     <td>64.83 (15.72)</td>
-    <td>5.29 (0.92)</td>
-    <td><b>6.91 (2.63)</b></td>
-    <td>15.13 (5.71)</td>
-    <td>15.37 (5.48)</td>
+    <td><b>5.29 (0.92)</b></td>
+    <td><b>6.68 (2.43)</b></td>
+    <td>14.53 (4.99)</td>
+    <td>15.07 (5.07)</td>
   </tr>
 </table>
 
