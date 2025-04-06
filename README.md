@@ -1,6 +1,9 @@
 # QCD Numerical Experiments 
 
-This document includes further numerical experiments results of further comparison between QCD and smoothed approaches. We use `hqreg` (Yi and Huang'17) and `conquer` (Tan et al'22, He et al'23) packages for comparison. 
+## Nudge hyperparameter
+
+
+
 
 ## Autocorrelation
 Table 1. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
@@ -327,5 +330,13 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
         <td>40.9 (4.21)</td>
   </tr>
 </table>
+
+## Error distribution
+
+
+
+
+
+
 
 
