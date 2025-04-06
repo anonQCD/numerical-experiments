@@ -198,7 +198,7 @@ Table 3. Average runtime and minimum RMSE for LP, QICD, and QCD when autocorrela
 
 # Section 2 - QCD, hqreg, conquer
 
-Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. Here, standard normal error distriution is used. QCD is slower than conquer and hqreg, but has the lowest minimum RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9 and standard normal error distriution is used. QCD is slower than conquer and hqreg, but has the lowest minimum RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
