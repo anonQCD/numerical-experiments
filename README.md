@@ -252,15 +252,6 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
   </tr>
   <tr>
     <td>$p=1000$</td>
-    <td>42.42 (3.90)</td>
-    <td>7.77 (0.73)</td>
-    <td><b>1.46 (0.30)</b></td>
-    <td><b>3.60 (0.51)</b></td>
-    <td>4.15 (0.75)</td>
-    <td>5.05 (0.92)</td>
-  </tr>
-  <tr>
-    <td>$p=1500$</td>
     <td>53.36 (4.42)</td>
     <td>8.46 (0.73)</td>
     <td><b>2.20 (0.48)</b></td>
@@ -269,13 +260,22 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
     <td>5.30 (0.88)</td>
   </tr>
   <tr>
-    <td>$p=2000$</td>
+    <td>$p=1500$</td>
     <td>57.96 (4.39)</td>
     <td>9.79 (1.12)</td>
     <td><b>3.62 (0.54)</b></td>
     <td><b>3.68 (0.31)</b></td>
     <td>4.37 (0.51)</td>
     <td>5.33 (0.71)</td>
+  </tr>
+  <tr>
+    <td>$p=2000$</td>
+    <td>62.84 (4.54)</td>
+    <td>10.50 (1.12)</td>
+    <td><b>4.65 (0.82)</b></td>
+    <td><b>3.76 (0.34)</b></td>
+    <td>4.52 (0.56)</td>
+    <td>5.43 (0.70)</td>
   </tr>
 </table>
 
