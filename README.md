@@ -36,11 +36,170 @@ Table 1. minimum RMSE of QCD when different nudge standard deviation values are 
 
 
 ## Sparsity
-
+Table 2. Average runtime and minimum RMSE for LP, QICD, and QCD when 10 non-zero true $\beta$ are used. QCD is faster than LP and QICD in high dimensions, and has the similar low minimum RMSE as other two. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+<table>
+  <tr>
+    <th> Dimension ($n=300$) </th>
+    <th colspan="3"> Runtime (seconds) </th>
+    <th colspan="3"> minimum RMSE </th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>LP </th>
+    <th>QICD</th>
+    <th>QCD</th>
+    <th>LP</th>
+    <th>QICD</th>
+    <th>QCD</th>
+  </tr>
+ <tr>
+    <td>$p=100$</td>
+<td><b>1.85 (0.03)</b></td>
+    <td>12.90 (1.53)</td>
+    <td>9.69 (0.42)</td>
+    <td>1.62 (0.05)</td>
+    <td>1.64 (0.07)</td>
+    <td><b>1.62 (0.06)</b></td>
+  </tr>
+  <tr>
+    <td>$p=300$</td>
+    <td><b>16.24 (0.83)</b></td>
+    <td>21.11 (4.17)</td>
+    <td>29.16 (2.59)</td>
+    <td>1.69 (0.13)</td>
+    <td>1.73 (0.13)</td>
+    <td><b>1.68 (0.11)</b></td>
+  </tr>
+  <tr>
+    <td>$p=500$</td>
+    <td>54.87 (2.57)</td>
+    <td>33.03 (8.34)</td>
+    <td><b>31.68 (2.14)</b></td>
+    <td>1.76 (0.12)</td>
+    <td>1.79 (0.15)</td>
+    <td><b>1.76 (0.11)</b></td>
+  </tr>
+  <tr>
+    <td>$p=700$</td>
+    <td>112.78 (5.61)</td>
+    <td>50.21 (12.77)</td>
+    <td><b>29.66 (2.21)</b></td>
+    <td>1.73 (0.18)</td>
+    <td>1.77 (0.19)</td>
+    <td><b>1.73 (0.14)</b></td>
+  </tr>
+  <tr>
+    <td>$p=1000$</td>
+     <td>253.86 (9.19)</td>
+    <td>72.39 (21.51)</td>
+    <td><b>29.13 (1.93)</b></td>
+    <td>1.76 (0.11)</td>
+    <td>1.81 (0.13)</td>
+    <td><b>1.77 (0.11)</b></td>
+  </tr>
+  <tr>
+    <td>$p=1500$</td>
+    <td>677.11 (30.64)</td>
+    <td>91.09 (20.02)</td>
+    <td><b>30.02 (1.92)</b></td>
+    <td>1.84 (0.16)</td>
+    <td>1.93 (0.23)</td>
+    <td><b>1.87 (0.20)</b></td>
+  </tr>
+  <tr>
+    <td>$p=2000$</td>
+<td>1446.99 (80.47)</td>
+    <td>133.63 (42.33)</td>
+    <td><b>31.05 (1.31)</b></td>
+    <td>1.87 (0.14)</td>
+    <td>1.99 (0.23)</td>
+    <td><b>1.92 (0.18)</b></td>
+  </tr>
+</table>
 
 
 ## Autocorrelation
 
+Table 3. Average runtime and minimum RMSE for LP, QICD, and QCD when autocorrelation between features are 0.9. QCD is faster than LP and QICD in high dimensions, and has the similar low minimum RMSE as other two. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+<table>
+  <tr>
+    <th> Dimension ($n=300$) </th>
+    <th colspan="3"> Runtime (seconds) </th>
+    <th colspan="3"> minimum RMSE </th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>LP </th>
+    <th>QICD</th>
+    <th>QCD</th>
+    <th>LP</th>
+    <th>QICD</th>
+    <th>QCD</th>
+  </tr>
+ <tr>
+    <td>$p=100$</td>
+    <td><b>2.09 (0.37)</b></td>
+    <td>12.94 (2.10)</td>
+    <td>14.60 (4.59)</td>
+    <td>3.79 (0.38)</td>
+    <td>4.05 (0.73)</td>
+    <td><b>3.81 (0.39)</b></td>
+  </tr>
+  <tr>
+    <td>$p=300$</td>
+    <td><b>15.00 (1.33)</b></td>
+    <td>26.98 (6.20)</td>
+    <td>20.94 (2.46)</td>
+    <td>3.73 (0.33)</td>
+    <td>3.95 (0.49)</td>
+    <td><b>3.74 (0.29)</b></td>
+  </tr>
+  <tr>
+    <td>$p=500$</td>
+    <td>53.02 (4.91)</td>
+    <td>40.76 (10.13)</td>
+    <td><b>32.50 (4.10)</b></td>
+    <td>3.80 (0.33)</td>
+    <td>4.26 (0.72)</td>
+    <td><b>3.82 (0.37)</b></td>
+  </tr>
+  <tr>
+    <td>$p=700$</td>
+    <td>116.67 (10.64)</td>
+    <td>50.96 (10.05)</td>
+    <td><b>40.15 (5.06)</b></td>
+    <td>3.67 (0.59)</td>
+    <td>3.91 (0.80)</td>
+    <td><b>3.70 (0.50)</b></td>
+  </tr>
+  <tr>
+    <td>$p=1000$</td>
+    <td>251.80 (9.33)</td>
+    <td>66.38 (17.70)</td>
+    <td><b>43.25 (4.45)</b></td>
+    <td>3.80 (0.26)</td>
+    <td>4.06 (0.31)</td>
+    <td><b>3.78 (0.24)</b></td>
+  </tr>
+  <tr>
+    <td>$p=1500$</td>
+    <td>722.96 (27.33)</td>
+    <td>84.58 (29.43)</td>
+    <td><b>44.95 (5.09)</b></td>
+    <td>3.79 (0.32)</td>
+    <td>4.11 (0.64)</td>
+    <td><b>3.83 (0.41)</b></td>
+  </tr>
+  <tr>
+    <td>$p=2000$</td>
+<td>1511.64 (41.57)</td>
+    <td>100.96 (25.83)</td>
+    <td><b>48.28 (3.96)</b></td>
+    <td>3.76 (0.34)</td>
+    <td>4.52 (0.56)</td>
+    <td><b>5.43 (0.70)</b></td>
+  </tr>
+</table>
 
 
 
@@ -313,65 +472,65 @@ Table 7. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
  <tr>
     <td>$p=100$</td>
     <td><b>0.14 (0.02)</b></td>
-        <td>0.57 (0.08)</td>
-        <td>0.25 (0.03)</td>
-        <td><b>23.6 (5.69)</b></td>
-        <td>38.1 (5.36)</td>
-        <td>27.5 (5.17)</td>
+    <td>0.57 (0.08)</td>
+    <td>0.25 (0.03)</td>
+    <td><b>35.0 (21.50)</b></td>
+    <td>43.7 (7.72)</td>
+    <td>42.2 (6.69)</td>
   </tr>
   <tr>
     <td>$p=300$</td>
     <td><b>0.48 (0.07)</b></td>
-        <td>4.63 (0.49)</td>
-        <td>0.60 (0.09)</td>
-        <td><b>23.1 (8.40)</b></td>
-        <td>39.9 (5.26)</td>
-        <td>39.5 (4.68)</td>
+    <td>4.63 (0.49)</td>
+    <td>0.60 (0.09)</td>
+    <td><b>32.5 (21.55)</b></td>
+    <td>46.0 (5.98)</td>
+    <td>43.7 (5.22)</td>
   </tr>
   <tr>
     <td>$p=500$</td>
     <td><b>0.90 (0.14)</b></td>
-        <td>5.19 (0.51)</td>
-        <td>1.06 (0.08)</td>
-        <td><b>25.0 (4.34)</b></td>
-        <td>39.5 (4.60)</td>
-        <td>39.3 (4.65)</td>
+    <td>5.19 (0.51)</td>
+    <td>1.06 (0.08)</td>
+    <td><b>39.5 (12.15)</b></td>
+    <td>45.9 (8.46)</td>
+    <td>43.9 (7.61)</td>
   </tr>
   <tr>
     <td>$p=700$</td>
     <td><b>1.16 (0.18)</b></td>
-        <td>5.11 (0.42)</td>
-        <td>1.55 (0.09)</td>
-        <td><b>22.5 (7.98)</b></td>
-        <td>41.2 (4.99)</td>
-        <td>41.0 (4.46)</td>
+    <td>5.11 (0.42)</td>
+    <td>1.55 (0.09)</td>
+    <td><b>29.2 (19.23)</b></td>
+    <td>48.0 (6.87)</td>
+    <td>45.4 (5.63)</td>
   </tr>
   <tr>
     <td>$p=1000$</td>
     <td><b>1.78 (0.23)</b></td>
-        <td>5.63 (0.60)</td>
-        <td>2.20 (0.23)</td>
-        <td><b>20.7 (6.35)</b></td>
-        <td>40.4 (6.41)</td>
-        <td>39.9 (6.06)</td>
+    <td>5.63 (0.60)</td>
+    <td>2.20 (0.23)</td>
+    <td><b>26.1 (15.27)</b></td>
+    <td>45.7 (6.62)</td>
+    <td>43.4 (5.93)</td>
   </tr>
   <tr>
     <td>$p=1500$</td>
     <td><b>2.83 (0.23)</b></td>
-        <td>6.72 (0.47)</td>
-        <td>3.58 (0.54)</td>
-        <td><b>24.8 (8.98)</b></td>
-        <td>41.9 (4.64)</td>
-        <td>41.2 (4.16)</td>
+    <td>6.72 (0.47)</td>
+    <td>3.58 (0.54)</td>
+    <td><b>33.4 (17.82)</b></td>
+    <td>47.6 (6.55)</td>
+    <td>44.9 (5.79)</td>
   </tr>
   <tr>
     <td>$p=2000$</td>
     <td><b>4.20 (0.75)</b></td>
-        <td>8.03 (0.83)</td>
-        <td>5.02 (0.58)</td>
-        <td><b>22.5 (6.28)</b></td>
-        <td>41.3 (4.76)</td>
-        <td>40.9 (4.21)</td>
+    <td>8.03 (0.83)</td>
+    <td>5.02 (0.58)</td>
+    <td><b>28.1 (13.71)</b></td>
+    <td>47.5 (6.95)</td>
+    <td>44.8 (5.48)</td>
   </tr>
 </table>
 
