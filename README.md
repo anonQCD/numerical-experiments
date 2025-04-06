@@ -2,7 +2,6 @@
 
 # Section 1 - LP, QICD, QCD
 
-## Nudge hyperparameter
 Table 1. minimum RMSE of QCD when different nudge standard deviation values are used. There are no difference in minimum RMSE over different hyperparameter values. Same example data in the introduction of the main paper is used ($p = 1000, n = 300$). 
 
 <table>
@@ -33,7 +32,6 @@ Table 1. minimum RMSE of QCD when different nudge standard deviation values are 
 </table>
 
 
-## Sparsity
 Table 2. Average runtime and minimum RMSE for LP, QICD, and QCD when 10 non-zero true $\beta$ are used. QCD is faster than LP and QICD in high dimensions, and has the similar low minimum RMSE as other two. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
@@ -115,8 +113,6 @@ Table 2. Average runtime and minimum RMSE for LP, QICD, and QCD when 10 non-zero
   </tr>
 </table>
 
-
-## Autocorrelation
 
 Table 3. Average runtime and minimum RMSE for LP, QICD, and QCD when autocorrelation between features are 0.9. QCD is faster than LP and QICD in high dimensions, and has the similar low minimum RMSE as other two. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
