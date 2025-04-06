@@ -1,9 +1,25 @@
 # QCD Numerical Experiments 
 
+# Section 1 - LP, QICD, QCD
+
 ## Nudge hyperparameter
+Table 1. minimum RMSE of QCD, QICD, and LP for different nudge standard deviation values when the same example data in introduction is used ($p = 1000, n = 300$).
 
 
 
+## Sparsity
+
+
+
+## Autocorrelation
+
+
+
+
+
+
+
+# Section 2 - QCD, hqreg, conquer
 
 ## Autocorrelation
 Table 1. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. QCD is slower than conquer and hqreg, but has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
