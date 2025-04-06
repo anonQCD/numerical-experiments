@@ -187,7 +187,7 @@ Table 3. Average runtime and minimum RMSE for LP, QICD, and QCD when autocorrela
   <tr>
     <td>$p=2000$</td>
 <td>1511.64 (41.57)</td>
-    <td>100.96 (25.83)</td>
+    <td>100.93 (25.83)</td>
     <td><b>48.28 (3.96)</b></td>
     <td>3.83 (0.35)</td>
     <td>4.07 (0.51)</td>
@@ -247,8 +247,8 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
     <td>7.77 (0.73)</td>
     <td><b>1.46 (0.30)</b></td>
     <td><b>3.70 (0.50)</b></td>
-    <td>4.25 (0.84)</td>
-    <td>5.19 (0.89)</td>
+    <td>4.15 (0.84)</td>
+    <td>5.05 (0.92)</td>
   </tr>
   <tr>
     <td>$p=1000$</td>
@@ -271,7 +271,7 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
   <tr>
     <td>$p=2000$</td>
     <td>62.84 (4.54)</td>
-    <td>10.50 (1.12)</td>
+    <td>10.50 (1.15)</td>
     <td><b>4.65 (0.82)</b></td>
     <td><b>3.76 (0.34)</b></td>
     <td>4.52 (0.56)</td>
@@ -309,7 +309,7 @@ Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the e
     <td>$p=300$</td>
     <td>4.35 (0.70)</td>
     <td>15.00 (2.20)</td>
-    <td><b>1.36 (0.27)</b></td>
+    <td><b>1.22 (0.24)</b></td>
     <td><b>10.3 (5.69)</b></td>
     <td>34.4 (8.76)</td>
     <td>35.7 (8.95)</td>
@@ -318,7 +318,7 @@ Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the e
     <td>$p=500$</td>
     <td>6.62 (1.65)</td>
     <td>24.32 (4.22)</td>
-    <td><b>1.70 (0.53)</b></td>
+    <td><b>1.36 (0.27)</b></td>
     <td><b>12.3 (5.27)</b></td>
     <td>37.0 (19.12)</td>
     <td>37.9 (19.10)</td>
@@ -327,7 +327,7 @@ Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the e
     <td>$p=700$</td>
     <td>8.86 (1.93)</td>
     <td>29.62 (5.23)</td>
-    <td><b>2.50 (0.42)</b></td>
+    <td><b>1.70 (0.53)</b></td>
     <td><b>11.3 (5.6)</b></td>
     <td>39.7 (18.2)</td>
     <td>40.5 (18.6)</td>
@@ -336,7 +336,7 @@ Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the e
     <td>$p=1000$</td>
     <td>11.60 (2.83)</td>
     <td>36.49 (6.27)</td>
-    <td><b>3.96 (0.64)</b></td>
+    <td><b>2.50 (0.42)</b></td>
     <td><b>11.9 (5.12)</b></td>
     <td>35.5 (16.4)</td>
     <td>36.8 (18.03)</td>
