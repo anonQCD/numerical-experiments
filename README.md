@@ -213,7 +213,7 @@ Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
   </tr>
 </table>
 
-Table 3. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.6. QCD is faster than conquer and hqreg, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 6. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.6. QCD is faster than conquer and hqreg, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -294,7 +294,7 @@ Table 3. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
   </tr>
 </table>
 
-Table 6. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.5. QCD is faster than conquer and hqreg, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 7. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.5. QCD is faster than conquer and hqreg, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -377,7 +377,7 @@ Table 6. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
 
 ## Error distribution
 
-Table 7. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the error distribution is skewed-t with degrees of freedom 2 and skewing parameter $\gamma$ 4. QCD is faster than hqreg but slower than conquer, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 8. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the error distribution is skewed-t with degrees of freedom 2 and skewing parameter $\gamma$ 4. QCD is faster than hqreg but slower than conquer, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
