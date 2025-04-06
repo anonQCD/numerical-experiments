@@ -33,8 +33,6 @@ Table 1. minimum RMSE of QCD when different nudge standard deviation values are 
 </table>
 
 
-
-
 ## Sparsity
 Table 2. Average runtime and minimum RMSE for LP, QICD, and QCD when 10 non-zero true $\beta$ are used. QCD is faster than LP and QICD in high dimensions, and has the similar low minimum RMSE as other two. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
@@ -204,8 +202,7 @@ Table 3. Average runtime and minimum RMSE for LP, QICD, and QCD when autocorrela
 
 # Section 2 - QCD, hqreg, conquer
 
-## Autocorrelation
-Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. QCD is slower than conquer and hqreg, but has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. Here, standard normal error distriution is used. QCD is slower than conquer and hqreg, but has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -286,7 +283,6 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
   </tr>
 </table>
 
-## Error distribution
 
 Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the error distribution is centered skewed-t and $\tau=0.3$. Here, parameters for skewed-t are degrees of freedom 2 and skewing parameter $\gamma$ 4. QCD is faster than hqreg in higher dimensions but slower than conquer, but QCD has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
