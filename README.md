@@ -6,7 +6,7 @@
 
 
 ## Autocorrelation
-Table 1. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 1. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autocorrelation between features are 0.9. QCD is slower than conquer and hqreg, but has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -88,7 +88,7 @@ Table 1. Average runtime and minimum RMSE for QCD, hqreg, and conquer when autoc
 </table>
 
 ## Signal
-Table 2. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.7. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 2. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.7. QCD is slower than conquer and hqreg, but has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -169,7 +169,7 @@ Table 2. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
   </tr>
 </table>
 
-Table 3. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.6. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 3. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.6. QCD is faster than conquer and hqreg, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -250,7 +250,7 @@ Table 3. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
   </tr>
 </table>
 
-Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.5. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signals of non-zero true $\beta$ are 0.5. QCD is faster than conquer and hqreg, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
 <table>
   <tr>
     <th> Dimension ($n=300$) </th>
@@ -333,7 +333,86 @@ Table 4. Average runtime and minimum RMSE for QCD, hqreg, and conquer when signa
 
 ## Error distribution
 
-
+Table 5. Average runtime and minimum RMSE for QCD, hqreg, and conquer when the error distribution is skewed-t with degrees of freedom 2 and skewing parameter $\gamma$ 4. QCD is faster than hqreg but slower than conquer, and has the lowest RMSE. The results are averaged over 20 different seeds and the standard deviations are reported in parentheses.
+<table>
+  <tr>
+    <th> Dimension ($n=300$) </th>
+    <th colspan="3"> Runtime (seconds) </th>
+    <th colspan="3"> minimum RMSE </th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>QCD </th>
+    <th>hqreg</th>
+    <th>conquer</th>
+    <th>QCD</th>
+    <th>hqreg</th>
+    <th>conquer</th>
+  </tr>
+ <tr>
+    <td>$p=100$</td>
+    <td>4.44 (2.04)</td>
+    <td>1.35 (0.08)</td>
+    <td><b>0.24 (0.06)</b></td>
+    <td><b>4.57 (1.30)</b></td>
+    <td>14.85 (7.24)</td>
+    <td>15.24 (7.02)</td>
+  </tr>
+  <tr>
+    <td>$p=300$</td>
+    <td>4.34 (0.88)</td>
+    <td>15.18 (1.99)</td>
+    <td><b>1.03 (0.29)</b></td>
+    <td><b>5.15 (1.49)</b></td>
+    <td>15.39 (5.13)</td>
+    <td>15.79 (4.97)</td>
+  </tr>
+  <tr>
+    <td>$p=500$</td>
+    <td>5.49 (0.87)</td>
+    <td>23.66 (4.77)</td>
+    <td><b>1.45 (0.40)</b></td>
+    <td><b>5.97 (2.88)</b></td>
+    <td>14.92 (6.05)</td>
+    <td>15.43 (6.07)</td>
+  </tr>
+  <tr>
+    <td>$p=700$</td>
+    <td>7.25 (1.70)</td>
+    <td>30.39 (7.36)</td>
+    <td><b>1.78 (0.30)</b></td>
+    <td><b>5.28 (1.21)</b></td>
+    <td>13.44 (4.66)</td>
+    <td>13.93 (4.68)</td>
+  </tr>
+  <tr>
+    <td>$p=1000$</td>
+    <td>9.12 (1.74)</td>
+    <td>39.20 (9.14)</td>
+    <td><b>2.73 (0.43)</b></td>
+    <td><b>6.23 (1.80)</b></td>
+    <td>13.30 (3.49)</td>
+    <td>13.81 (3.62)</td>
+  </tr>
+  <tr>
+    <td>$p=1500$</td>
+    <td>11.29 (1.97)</td>
+    <td>54.62 (15.66)</td>
+    <td><b>3.98 (0.65)</b></td>
+    <td><b>6.66 (2.36)</b></td>
+    <td>14.39 (4.13)</td>
+    <td>14.75 (4.12)</td>
+  </tr>
+  <tr>
+    <td>$p=2000$</td>
+    <td>14689 (2.44)</td>
+    <td>64.83 (15.72)</td>
+    <td><b>5.29 (0.92)</b></td>
+    <td><b>6.68 (2.43)</b></td>
+    <td>14.53 (4.99)</td>
+    <td>15.07 (5.07)</td>
+  </tr>
+</table>
 
 
 
